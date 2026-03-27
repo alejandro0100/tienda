@@ -1,0 +1,90 @@
+/*header nav footer main
+*/
+
+header{
+    position: relative;
+
+    left: 50%;
+    
+
+    width: 1366px;
+    height: 154px;
+
+
+
+    background-color: aquamarine;
+
+}
+
+nav{
+    position: relative;
+    left: 50%;
+    width: 1366px;
+    height: 170px;
+
+    background-color: rgb(28, 97, 19);
+
+}
+
+nav div{
+    position: relative;
+    bottom: -85%;
+    display: inline-block;
+    padding: 5px;
+
+    width: 125px;
+
+    background-color: rgb(49, 16, 141);
+}
+
+div.mover~div{
+    position: relative;
+    bottom: -85%;
+    left: 525px;
+    display: inline-block;
+    padding: 5px;
+
+    width: 125px;
+
+    background-color: rgb(49, 16, 141);
+}
+
+nav a{
+    padding: 5px;
+    
+}
+
+
+main{
+    position: relative;
+    left: 50%;
+    width: 1366px;
+    height: 1354px;
+
+    background-color: rgb(167, 44, 13);
+
+}
+
+
+footer{
+    position: relative;
+    left: 50%;
+    width: 1366px;
+    height: 272px;
+    background-color: rgb(210, 1, 1);
+
+}
+
+footer div{
+    position: relative;
+    display: block;
+    padding: 5px;
+
+    width: 125px;
+    height: 58px;
+    background-color: rgb(18, 149, 106);
+}
+
+footer a{
+    padding: 5px;
+}
