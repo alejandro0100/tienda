@@ -1,52 +1,71 @@
 /*header nav footer main
 */
-
+body{
+    
+    background-color: cornflowerblue;
+}
 header{
     position: relative;
 
-    left: 50%;
+    left: 15%;
     
 
     width: 1366px;
-    height: 154px;
+    height: 300px;
 
 
 
-    background-color: aquamarine;
+    background-color: rgb(19, 25, 33);
 
+}
+
+header div{
+    width: 250px;
+    height: 250px;
+    border-radius: 50%;
+        overflow: hidden;
+        margin-left: 50px;
+        padding: 20px;
+
+
+}
+header img{
+    width: 100%;
+    height: 100%;
 }
 
 nav{
     position: relative;
-    left: 50%;
+    left: 15%;
+    
     width: 1366px;
-    height: 170px;
+    height: 50px;
 
-    background-color: rgb(28, 97, 19);
+    background-color: rgb(35, 47, 62);
 
 }
 
 nav div{
     position: relative;
-    bottom: -85%;
+    bottom: -10px;
     display: inline-block;
     padding: 5px;
 
     width: 125px;
 
-    background-color: rgb(49, 16, 141);
+    background-color:  rgb(55, 71, 90);
 }
 
 div.mover~div{
     position: relative;
-    bottom: -85%;
+    bottom: -10px;
     left: 525px;
     display: inline-block;
     padding: 5px;
 
     width: 125px;
 
-    background-color: rgb(49, 16, 141);
+    background-color: rgb(55, 71, 90);
 }
 
 nav a{
@@ -57,22 +76,23 @@ nav a{
 
 main{
     position: relative;
-    left: 50%;
+    left: 15%;
     width: 1366px;
     height: 1354px;
-
-    background-color: rgb(167, 44, 13);
+    display: grid;
+    place-items: center;
+    background-color: rgb(2332, 232, 232);
 
 }
 
 
 footer{
     position: relative;
-    left: 50%;
+    left: 15%;
     width: 1366px;
     height: 272px;
-    background-color: rgb(210, 1, 1);
-
+    
+ background-color: rgb(35, 47, 62);
 }
 
 footer div{
@@ -82,9 +102,120 @@ footer div{
 
     width: 125px;
     height: 58px;
-    background-color: rgb(18, 149, 106);
+    background-color:  rgb(55, 71, 90);
 }
 
 footer a{
     padding: 5px;
+}
+
+section.hojadeformulario{
+    position: relative;
+
+
+
+    bottom: 350px;
+
+    width: 500px;
+    height: 350px;
+
+    background-color: blue;
+}
+
+div.formulario{
+    position: relative;
+
+    padding-top: 40px;
+
+    display: flex;
+    width: 500px;
+
+    flex-direction: column; /* Pone los elementos en columna */
+  align-items: center;    /* Centra horizontalmente */
+  gap: 10px;
+}
+
+/*section>label+input{
+    position: relative;
+
+    display: flex;
+
+flex-direction: column; 
+  align-items: center;    
+  gap: 10px;
+  padding: 10px;
+
+    width: 250px;
+
+}*/
+
+section.cat{
+    
+    width: 1300px;
+    height: 1150px;
+    background-color: rgb(105, 93, 93);
+    
+}
+
+section.cat>h1{
+    text-align: center;
+    font-size: 50px;
+}
+
+section.abuelo{
+
+    display: inline-block;
+    width: 300px;
+    height: 300px;
+    background-color: darkorange;
+    margin: 10px;
+}
+div.elapa{
+    position: relative;
+    overflow: hidden;
+    width: 300px;
+    height: 300px;
+    background-color: blue;
+}
+
+div.elapa>h2{
+position: absolute;
+  bottom: 0;              /* Pegado al borde inferior */
+  left: 0;
+  width: 100%;            /* Para que ocupe todo el ancho */
+  text-align: center;
+}
+
+div.info{
+    position: absolute;
+    top: 100%; /* Empieza justo debajo del padre (fuera de vista) */
+    left: 0;
+    width: 100%;
+    height: 100%;
+    transition: top 0.3s ease;
+    background-color: blueviolet;
+}
+
+div.elapa:hover div.info{
+    top: 0;
+}
+
+table{
+    background-color: aqua;
+}
+
+th{
+    font-size: 50px;
+    background-color: blue;
+}
+
+td{
+    width: 300px;
+    height: 300px;
+}
+
+td>img{
+    width: 100%;
+    height: 100%;
+
 }
