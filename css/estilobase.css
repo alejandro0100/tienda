@@ -1,5 +1,16 @@
 /*header nav footer main
 */
+
+*{
+      font-family: "Bona Nova SC", serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+a{
+    color: black;
+}
+
 body{
     
     background-color: cornflowerblue;
@@ -81,7 +92,7 @@ main{
     height: 1354px;
     display: grid;
     place-items: center;
-    background-color: rgb(2332, 232, 232);
+    background-color: rgb(232, 232, 232);
 
 }
 
@@ -99,7 +110,6 @@ footer div{
     position: relative;
     display: block;
     padding: 5px;
-
     width: 125px;
     height: 58px;
     background-color:  rgb(55, 71, 90);
@@ -119,7 +129,7 @@ section.hojadeformulario{
     width: 500px;
     height: 350px;
 
-    background-color: blue;
+    background-color: rgb(249, 237, 237);
 }
 
 div.formulario{
@@ -153,7 +163,7 @@ section.cat{
     
     width: 1300px;
     height: 1150px;
-    background-color: rgb(105, 93, 93);
+    background-color: rgb(249, 237, 237);
     
 }
 
@@ -175,7 +185,7 @@ div.elapa{
     overflow: hidden;
     width: 300px;
     height: 300px;
-    background-color: blue;
+    background-color: rgb(255, 255, 255);
 }
 
 div.elapa>h2{
@@ -184,6 +194,12 @@ position: absolute;
   left: 0;
   width: 100%;            /* Para que ocupe todo el ancho */
   text-align: center;
+  background-color: rgb(31, 31, 189);
+}
+
+div.elapa>img{
+    width: 100%;
+    height: 100%;
 }
 
 div.info{
@@ -192,8 +208,11 @@ div.info{
     left: 0;
     width: 100%;
     height: 100%;
-    transition: top 0.3s ease;
-    background-color: blueviolet;
+    transition: top 0.6s ease;
+    background-color: rgb(25, 58, 167);
+}
+div>h3{
+    text-align: center;
 }
 
 div.elapa:hover div.info{
@@ -201,12 +220,13 @@ div.elapa:hover div.info{
 }
 
 table{
-    background-color: aqua;
+    background-color: rgb(0, 0, 0);
 }
 
 th{
     font-size: 50px;
-    background-color: blue;
+
+    background-color: rgb(55, 71, 90);
 }
 
 td{
